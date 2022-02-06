@@ -15,5 +15,5 @@ Not: Programı kullanıcı arayüzlü olarak indirip kullanmak için [Google Dri
 
 Program indirildikten sonra, "Follow Up Program.exe"yi çalıştırın arayüz ve chrome tarayıcısı açılacak. Programda "Get Links" yazan butonlar "Bootcamp Hızlandırma Programı Patika.dev" sunucusundaki GitHub ve Linkedin kanallarına yazılmış linkleri alarak text dosyasına kaydeder. "Start Follow" butonları ise ilgili site için kaydedilen linkleri alarak GitHub için takip eder, Linkedin için ise bağlantı kurar.
 
-"Start Folllow" butonlarına basmadan önce açılan tarayıcıda takip işlemini yapmak istediğiniz GitHub veya Linkedin hesabınıza giriş yapmayı unutmayın.
+#"Start Folllow" butonlarına basmadan önce açılan tarayıcıda takip işlemini yapmak istediğiniz GitHub veya Linkedin hesabınıza giriş yapmayı unutmayın.
 
