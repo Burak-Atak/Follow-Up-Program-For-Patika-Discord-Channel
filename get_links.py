@@ -39,7 +39,7 @@ class GetLinks:
         channel_id = LINKEDIN_ID if self.linkedin else GITHUB_ID
 
         headers = {
-            "authorization": "NzYzNjc5MzE0NTUzMDc3NzYw.YaN7Yw.0IXepNMixT-NxAuOAXq2BSFlHZs"
+            "authorization": "NzYzNjc5MzE0NTUzMDc3NzYw.YgA4pA.LYfN6ceO_WpzIRUr3_3y5dTWPs4"
         }
 
         r = requests.get(f"https://discord.com/api/v9/channels/{channel_id}/messages", headers=headers,
