@@ -22,5 +22,5 @@ a) Bunu temin edebilmek için öncelikle discordu web tarayıcınızda açarak B
 b) Açılan kısımda ilk resimde göreceğiniz Network kısmına tıkladıkdan sonra 2. resimde göreceğiniz üzere sunucu içerisindeki herhangi bir kanala bir şey yazmanız lazım fakat entere basıp yazdığınızı göndermenize gerek yok. 
 c) Ardından resimde "2" ile gösterilen typinge 1 defa tıklayarak açılan kısımda "authorization"nın karşısında bulunan keyi kopyalayarak programdaki Entry Box'a yapıştırdıktan sonra "Get Links" butonlarını kullanıp ilgili kanallardan linkleri alabilirsiniz.
 
-![plot](\image_one.png)
-![plot](\image_two.png)
+![Image_1](\image_one.png)
+![Image_2](\image_two.png)
