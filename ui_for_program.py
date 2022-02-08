@@ -2,7 +2,6 @@ from tkinter import *
 from get_links import GetLinks
 from selenium_for_program import FollowWithSelenium
 
-
 # Colors For UI
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -23,7 +22,9 @@ class UserInterface:
         # BUTTONS
         start_button_linkedin = Button(text="Start Follow in Linkedin",
                                        font=(FONT_NAME, 12, ""),
-                                       highlightthickness=0, bg=GREEN,
+                                       highlightthickness=0,
+                                       bg=GREEN,
+                                       width=25,
                                        command=lambda: self.start_following_linkedin())
 
         start_button_linkedin.grid(row=1, column=2, sticky="w")
@@ -32,26 +33,30 @@ class UserInterface:
                                      font=(FONT_NAME, 12, ""),
                                      highlightthickness=0,
                                      bg=GREEN,
+                                     width=23,
                                      command=lambda: self.start_following_github())
 
         start_button_github.grid(row=1, column=1, sticky="w")
 
-        github_button = Button(text="Get Links For GitHub",
-                               font=(FONT_NAME, 12, ""),
-                               highlightthickness=0,
-                               bg=GREEN,
-                               command=lambda: self.call_github())
+        get_links_github_button = Button(text="Get Links For GitHub",
+                                         font=(FONT_NAME, 12, ""),
+                                         highlightthickness=0,
+                                         bg=GREEN,
+                                         width=23,
+                                         command=lambda: self.call_github())
 
-        github_button.grid(row=0, column=1, sticky="w")
+        get_links_github_button.grid(row=0, column=1, sticky="w")
 
-        linkedin_button = Button(text="Get Links For Linkedin",
-                                 font=(FONT_NAME, 12, ""),
-                                 highlightthickness=0,
-                                 bg=GREEN,
-                                 command=lambda: self.call_linkedin())
+        get_links_linkedin_button = Button(text="Get Links For Linkedin",
+                                           font=(FONT_NAME, 12, ""),
+                                           highlightthickness=0,
+                                           bg=GREEN,
+                                           width=25,
+                                           command=lambda: self.call_linkedin())
 
-        linkedin_button.grid(row=0, column=2, sticky="w")
+        get_links_linkedin_button.grid(row=0, column=2, sticky="w")
 
+        # Labels
         get_links_label = Label(text="Get Links:",
                                 font=(FONT_NAME, 20, ""),
                                 highlightthickness=0,
@@ -66,16 +71,29 @@ class UserInterface:
 
         start_following_label.grid(row=1, column=0, sticky="w")
 
+        authorization_label = Label(text="Authorization Key:",
+                                    font=(FONT_NAME, 20, ""),
+                                    highlightthickness=0,
+                                    bg=YELLOW)
+
+        authorization_label.grid(row=2, column=0, sticky="w")
+
+        # Entry
+        self.authorization_entry = Entry(width=82)
+        self.authorization_entry.grid(row=2, column=1, sticky="w", columnspan=2, ipady=4)
+
         self.get_link = GetLinks()
         self.screen.mainloop()
 
     # Get Link for Linkedin
     def call_linkedin(self):
-        self.get_link.read_file(linkedin=True)
+        authorization = self.authorization_entry.get()
+        self.get_link.read_file(authorization, linkedin=True)
 
     # Get Link for GitHub
     def call_github(self):
-        self.get_link.read_file(linkedin=False)
+        authorization = self.authorization_entry.get()
+        self.get_link.read_file(authorization, linkedin=False)
 
     # Start to follow in Linkedin
     def start_following_linkedin(self):

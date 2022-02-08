@@ -17,6 +17,10 @@ Program indirildikten sonra, "Follow Up Program.exe"yi çalıştırın arayüz v
 
 "Start Folllow" butonlarına basmadann önce hangi sitede takip işlemini gerçekleştirmek istiyorsanız açılan tarayıcıda hesabınıza giriş yapmayı unutmayın.
 
-Discorddaki Bootcamp Hızlandırma Programı-Patika.dev sunucusuna istek atarak gerekli linkleri alabilmek için programa "Authorization Key"inizi girmeniz gerekiyor. Bunu temin edebilmek için öncelikle discordu web tarayıcınızda açarak Bootcamp Hızlandırma Programı-Patika.dev gidip herhangi bir yere sağ tıklayarak inceleye basmanız gerekiyor. Açılan kısımda ilk resimde göreceğiniz Network kısmına tıkladıkdan sonra 2. resimde göreceğiniz üzere sunucu içerisindeki herhangi bir kanala bir şey yazmanız lazım fakat entere basıp yazdığınızı göndermenize gerek yok. Ardından resimde "2" ile gösterilen typinge 1 defa tıklayarak açılan kısımda "authorization"nın karşısında bulunan keyi kopyalayarak programdaki Entry Box'a yapıştırdıktan sonra "Get Links" butonlarını kullanıp ilgili kanallardan linkleri alabilirsiniz.
+Discorddaki Bootcamp Hızlandırma Programı-Patika.dev sunucusuna istek atarak gerekli linkleri alabilmek için programa "Authorization Key"inizi girmeniz gerekiyor. 
+a) Bunu temin edebilmek için öncelikle discordu web tarayıcınızda açarak Bootcamp Hızlandırma Programı-Patika.dev gidip herhangi bir yere sağ tıklayarak inceleye basmanız gerekiyor. 
+b) Açılan kısımda ilk resimde göreceğiniz Network kısmına tıkladıkdan sonra 2. resimde göreceğiniz üzere sunucu içerisindeki herhangi bir kanala bir şey yazmanız lazım fakat entere basıp yazdığınızı göndermenize gerek yok. 
+c) Ardından resimde "2" ile gösterilen typinge 1 defa tıklayarak açılan kısımda "authorization"nın karşısında bulunan keyi kopyalayarak programdaki Entry Box'a yapıştırdıktan sonra "Get Links" butonlarını kullanıp ilgili kanallardan linkleri alabilirsiniz.
+
 ![plot](\image_one.png)
 ![plot](\image_two.png)

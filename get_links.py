@@ -18,13 +18,15 @@ class GetLinks:
         self.linkedin = False
         self.data_list = []
         self.added = []
+        self.authorization = ""
 
     # This function reads entered text after update self.added and runs the retrieve_messages() function.
-    def read_file(self, linkedin=False):
+    def read_file(self, authorization, linkedin=False,):
         self.linkedin = True if linkedin else False
         self.text_name = "linkedin_links.txt" if linkedin else "github_links.txt"
         self.added.clear()
         self.data_list.clear()
+        self.authorization = authorization
 
         try:
             with open(self.text_name, "r", encoding="utf-8") as text_file:
@@ -39,7 +41,7 @@ class GetLinks:
         channel_id = LINKEDIN_ID if self.linkedin else GITHUB_ID
 
         headers = {
-            "authorization": "NzYzNjc5MzE0NTUzMDc3NzYw.YaN7Yw.0IXepNMixT-NxAuOAXq2BSFlHZs"
+            "authorization": self.authorization
         }
 
         r = requests.get(f"https://discord.com/api/v9/channels/{channel_id}/messages", headers=headers,
@@ -68,3 +70,4 @@ class GetLinks:
             self.added.clear()
 
         self.parameters.pop('before', None)
+
