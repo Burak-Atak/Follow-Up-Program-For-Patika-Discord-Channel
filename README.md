@@ -29,3 +29,4 @@ Not: Bilgisayarında Python olmayanlar için exe.'ye çevrilmiş hali Drive'da m
 \
 ![Image_1](image_one.png)
 ![Image_2](image_two.png)
+![Image_3](program.png)
