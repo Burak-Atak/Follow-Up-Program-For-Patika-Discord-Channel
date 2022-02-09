@@ -12,8 +12,8 @@ Bu program Patika.dev discord kanalından, kullanıcıların Linkedin ve GitHub 
 Thanks to [Fevzi Yuksel](https://github.com/FevziYuksel), [Cemre Dural](https://github.com/cemredural) and [Hilal Tuana Kum](https://github.com/hilallkum) for testing program before releasing.**
 
 **Not:**\
-*Program tamamiyle bireysel olarak geliştirilmiştir Patika.dev ile bir anlaşması veya bağlantısı yoktur./
-Program bot şeklinde çalıştığı için GitHub ve Linkedin'in kullanım koşullarına aykırı olması halinde hesaplara yönelik bir kısıtlama getirilebilir bu gibi durumlarda sorumluluk kabul edilmemektedir. Ben kendi hesabımda 2 hafta önce her iki platformda da defalarca çalıştırmama rağmen hiçbir sorun yaşamadım sadece uyarı amaçlı aklınızda bulunsun diye söylüyorum.*\
+*Program tamamiyle bireysel olarak geliştirilmiştir Patika.dev ile bir anlaşması veya bağlantısı yoktur.\
+Program bot şeklinde çalıştığı için GitHub ve Linkedin'in kullanım koşullarına aykırı olması halinde hesaplara yönelik bir kısıtlama getirilebilir bu gibi durumlarda sorumluluk kabul edilmemektedir. Ben kendi hesabımda 2 hafta önce her iki platformda da defalarca çalıştırmama rağmen hiçbir sorun yaşamadım sadece uyarı amaçlı aklınızda bulunsun diye söylüyorum.\*
 
 **Nasıl Kullanılır?**\
 Program indirildikten sonra, "Follow Up Program.exe"yi çalıştırın arayüz ve chrome tarayıcısı açılacak. Programda "Get Links" yazan butonlar "Bootcamp Hızlandırma Programı Patika.dev" sunucusundaki GitHub ve Linkedin kanallarına yazılmış linkleri alarak text dosyasına kaydeder. "Start Follow" butonları ise ilgili site için kaydedilen linkleri alarak GitHub için takip eder, Linkedin için ise bağlantı kurar.\
