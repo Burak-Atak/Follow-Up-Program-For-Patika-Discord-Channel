@@ -9,7 +9,7 @@ Bu program Patika.dev discord kanalından, kullanıcıların Linkedin ve GitHub 
 +++++
 
 **With [Lala Ibadullayeva's](https://github.com/Lala2398) contribution.
-Thanks to [Fevzi Yuksel](https://github.com/FevziYuksel), [Cemre Dural](https://github.com/cemredural) and [Hilal Tuana Kum](https://github.com/hilallkum) for testing program before releasing.**
+Thanks to [Uzay Peker](https://github.com/spacegondar), [Fevzi Yuksel](https://github.com/FevziYuksel), [Cemre Dural](https://github.com/cemredural) and [Hilal Tuana Kum](https://github.com/hilallkum) for testing program before releasing.**
 
 **Not:**\
     ***Program tamamiyle bireysel olarak geliştirilmiştir Patika.dev ile bir anlaşması veya bağlantısı yoktur.\
